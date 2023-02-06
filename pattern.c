@@ -8,7 +8,7 @@ int main()
     {
         for (int j = 1; j <= n; j = j + 2)
         {
-            if (i >= j) 
+            if (i >= j) //change in sign (<) will change the output.
             {
                 printf("%d ", j);
             }
